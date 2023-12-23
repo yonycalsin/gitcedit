@@ -51,6 +51,30 @@ importers:
         specifier: 5.3.3
         version: 5.3.3
 
+  packages/datalyer:
+    devDependencies:
+      '@gitcedit/eslint-config':
+        specifier: workspace:*
+        version: link:../eslint-config
+      '@gitcedit/tsconfig':
+        specifier: workspace:*
+        version: link:../tsconfig
+      '@types/node':
+        specifier: 20.10.5
+        version: 20.10.5
+      eslint:
+        specifier: 8.56.0
+        version: 8.56.0
+      rimraf:
+        specifier: 5.0.5
+        version: 5.0.5
+      tsup:
+        specifier: 8.0.1
+        version: 8.0.1(typescript@5.3.3)
+      typescript:
+        specifier: 5.3.3
+        version: 5.3.3
+
   packages/eslint-config:
     dependencies:
       '@typescript-eslint/eslint-plugin':
